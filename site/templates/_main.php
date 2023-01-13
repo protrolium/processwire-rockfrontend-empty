@@ -17,6 +17,7 @@ $home = $pages->get('/'); // homepage
 $rockfrontend
 	->styles()->setOptions(['autoload'=>true])
 	->add("/site/templates/uikit-3.15.20/src/less/uikit.theme.less")
+	->addAll("/site/templates/sections")
 	->add("/site/templates/styles/custom.less")
 	;
 $rockfrontend
