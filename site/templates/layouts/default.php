@@ -1,0 +1,1 @@
+<?= $rockfrontend->render("sections/main.latte"); ?>
